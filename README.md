@@ -1,8 +1,8 @@
 This is the future project portfolio.
 
 Some projects on my mind: (subject to change)
-- Fisharian: (Python)
-	Computer Vision AI model used for automatic fishing in Terraira.
+- Ensemble clustering with the presence of noise: (Python)
+  	My dissertation project. Due to the nature of the collaborative process between a student and a supervisor I would rather not share the original repository containing every file, revision, commit and change in respect to my supervisor's right to privacy. This portfolio contains the complete dissertation project code as it was submitted for grading. This project dives into the idea that small additions of noise into the dataset might force an increase in the diversity of the clustering ensemble, thus enabling it to capture more detail from the dataset resulting in an increase in accuracy. While final results remained not conclusive, there were several cases where this idea turned out to be correct.
 
 - Tableau visualization: (Python/Tableau)
 	Download a dataset from kaggle, perform exploratory analysis and prepare it for Tableau.
