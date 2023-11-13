@@ -3,7 +3,8 @@ This is the future project portfolio.
 Some projects on my mind: (subject to change)
 - Ensemble clustering with the presence of noise: (Python)\
   	My dissertation project.\
-	This project dives into the idea that small additions of noise into the dataset might force an increase in the diversity of the clustering ensemble, thus enabling it to capture more detail from the dataset resulting in an increase in accuracy. While final results remained not conclusive, there were several cases where this idea turned out to be correct.
+	This project dives into the idea that small additions of noise into the dataset might force an increase in the diversity of the clustering ensemble, thus enabling it to capture more detail from the dataset resulting in an increase in accuracy. While final results remained not conclusive, there were several cases where this idea turned out to be correct.\
+	Results can be found under EnsembleClustering/results path as .png graphs.
 
 
 - Tableau visualization: (Python/Tableau)
