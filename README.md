@@ -20,7 +20,7 @@ Some projects on my mind: (subject to change)
     - Make a classifier to predict card quality (bronze, silver, gold) based on player statistics.
     - Make a regressor to predict player overall rating based on player statistics.
     - Make a classifier to predict player position (defender, midfielder, striker) based on player statistics.
-    - FOR THE 3 TASKS ABOVE: train on FIFA22 and FIFA21 data, predict on FIFA20 data
+    - FOR THE 3 TASKS ABOVE: train on FIFA17-21 data, predict on FIFA22 data.
 
 
 - Coffee orders and customer data:\
