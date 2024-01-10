@@ -26,9 +26,9 @@ for Microsoft's products.
 Metabase (On-Prem version) is a FOSS product which has to be self-hosted in order to be used.
 For this I am using Docker, and I am running the service locally as a container.
 
-To obtain the data displayed in the widgets (visible in the PDF file) I have connected
+To obtain the data displayed in the widgets (visible below) I have connected
 Metabase with AWS RDB service and performed following queries:
-
+[CoffeeCustomers_preview.pdf](CoffeeCustomers_preview.pdf)
 ##### Profit in 2022
 ```postgresql
 SELECT
