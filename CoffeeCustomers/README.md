@@ -13,7 +13,7 @@ service. The data is split into 4 tables.
   - this is an extra table containing **most** of US zip codes and the state to which they belong.
 
 Together, they look like this:
-![db_structure.png](..%2F..%2F..%2FPictures%2Fdb_structure.png)
+![db_structure.png](db_structure.png)
 
 The difference in data type between zips.zip and customers.postcode
 exists due to the latter containing not only US but also Irish and UK zips/postcodes.
