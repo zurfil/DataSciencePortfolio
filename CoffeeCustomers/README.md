@@ -28,7 +28,7 @@ For this I am using Docker, and I am running the service locally as a container.
 
 To obtain the data displayed in the widgets (visible below) I have connected
 Metabase with AWS RDB service and performed following queries:
-[CoffeeCustomers_preview.pdf](CoffeeCustomers_preview.pdf)
+[CoffeeCustomers_dashboard.png](CoffeeCustomers_dashboard.png)
 ##### Profit in 2022
 ```postgresql
 SELECT
