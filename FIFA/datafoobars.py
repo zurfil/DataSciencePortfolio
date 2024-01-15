@@ -18,4 +18,5 @@ def drop_categorical_data(df):
 
 def drop_goalkeeper_data(df):
     df = df.drop(["GKDiving", "GKHandling","GKKicking", "GKPositioning", "GKReflexes"], axis=1, inplace=False)
+    df = df.drop(df[df["Position"] == "GK"].index, inplace=True)
     return df
