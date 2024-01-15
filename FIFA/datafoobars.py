@@ -76,3 +76,11 @@ def drop_positions(df, positions):
     for position in positions:
         df = (df.drop(df[df["Position"] == position].index))
     return df
+
+
+def bin_overall_to_quality(df):
+    bins = [-1, 64, 74, 100]
+    labels = ["Bronze", "Silver", "Gold"]
+    df["Rank"] = pd.cut(df["Overall"], bins=bins, labels=labels, include_lowest=True)
+    df = df.drop(["Overall"], axis=1, inplace=False)
+    return df
