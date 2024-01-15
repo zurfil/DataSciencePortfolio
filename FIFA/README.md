@@ -7,7 +7,7 @@ an overall rating and a position they play.
 This project uses past data from FIFA 17-21 to predict player quality, overall and position
 from FIFA 22.
 
-### Quality and position
+### quality_pred and position_pred
 These two tasks are similar as they are both classification tasks.
 Player can have one of three qualities:
 - Bronze (Overall 0-64),
@@ -27,7 +27,12 @@ are not ability-based but based on how often a player has played on a certain po
 Thus, achieving 100% or even very high % accuracy in this task would be impossible
 working purely off of player's statistics.
 
-### Overall
+### overall_pred
 This is a regression task where all player's statistics are regressed to predict a continuous
 variable being Overall. While purely technically Overall is a categorical variable with 100 categories
 it can be considered a continuous variable the same way as height and weigh are.
+
+### datafoobars.py
+This is a module which bundles together operations called across multiple files
+to remove redundancy and modularise the code. If a new task is created
+these functions can be easily used there. 
