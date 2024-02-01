@@ -29,3 +29,10 @@ Current projects are:
 
 	Tools used: PostgreSQL DB hosted on AWS RDB could service, 
 	Metabase running as a local service in a Docker container.
+
+  
+- MNIST image recognition:\
+	Popular dataset containing a set of handwritten numbers ranging from 0 to 9. The task is to make a deep learning algorithm
+	which is able to recognise each number. 
+
+	Tools used: Python (Tensorflow, please make sure to use Python 3.11)
